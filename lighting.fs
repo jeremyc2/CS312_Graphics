@@ -1,11 +1,25 @@
-uniform vec3 lightColor;
-uniform vec3 lightPos;
-uniform vec3 viewPos;
-uniform sampler2D u_Texture;
 
+uniform sampler2D u_Texture;
 varying vec2 v_UV;
 varying vec3 FragPos;
 varying vec3 Normal;
+
+
+/***********************
+* Erase me and replace with uniforms
+************************/
+vec3 lightColor = vec3(1.0,1.0,1.0);
+
+/***********************
+* Erase me and replace with uniforms
+************************/
+vec3 lightPos = vec3(1.0,1.0,1.0);
+
+/***********************
+* Erase me and replace with uniforms
+************************/
+vec3 viewPos = vec3(1.0,1.0,1.0);
+
 
 void main()
 {
