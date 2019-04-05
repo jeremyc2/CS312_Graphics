@@ -14,7 +14,7 @@ void main()
     // Get rid of translation or it will mess up our normals. Trim to mat3
     Normal = a_Normal;
     // Normal = mat3(u_Matrix[0].rgb, u_Matrix[1].rgb, u_Matrix[2].rgb) *  a_Normal;
-    // Normal = (u_Matrix * vec4(a_Normal, 0.0)).xyz;
+    // Normal = (u_Matrix * vec4(a_Normal, 0.0)).xyz; 
 
 
     gl_Position = u_Matrix * vec4(a_Position, 1.0);
