@@ -6,15 +6,8 @@
         {  
            "label":"BldFile",
            "type":"shell",
-           "command":"g++-8",
-           "args":[  
-              "-w",
-              "-g",
-              "${workspaceRoot}\/pipeline.cpp",
-              "-o",
-              "${workspaceRoot}\/pipeline",
-              "-lSDL2"
-           ],
+           "command":"./run.sh",
+           "args":[],
            "group":"build",
            "problemMatcher":[  
      
